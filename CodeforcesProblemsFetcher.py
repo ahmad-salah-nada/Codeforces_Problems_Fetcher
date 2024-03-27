@@ -80,7 +80,7 @@ def getLinks(fetched):
     return ans
     
 def main():
-    problems = getLinks(fetch(1800, 20, ['ahmad_salah'], [2100, 2200, 2300]))
+    problems = getLinks(fetch(1800, 20, ['tourist'], [2100, 2200, 2300]))
 
     for problem in problems:
         print(problem)
